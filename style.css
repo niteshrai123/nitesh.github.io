@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(223, 177, 177);
+    font-family: 'Fira Sans', sans-serif;
+    height: 374vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+   /* background-color: yellow;*/
+    width: 105vw;
+    padding: 26px;
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+  /* background-color: rgb(205, 57, 104);*/
+    height: 60vh;
+    width: 80vw;
+    margin: 115px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sn{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+background-color: white;
+color: dodgerblue;
+}
+.devPic img{
+    height: 60vh;
+}
+
+.contactform {
+    padding: 0 44px;
+    padding-top: -50px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: -188px 8px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 33vw;
+      border-radius: 5px;
+      margin: 6px 0 0 0;
+      padding: 3px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+   margin: 20px;
+   font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+margin: 23px;
+text-align: center;
+}
+.p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+h2{
+    text-align: center;
+    margin: 23px;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(234, 35, 21, 0.5);
+}
+.p {
+    margin: 1em 0;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.skillcontainer{
+    text-align: center;
+    padding: 12px;
+}
+.skillitem{
+    position: ;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 256px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin: -1px;
+}
+.cross{
+    margin-left: 107px;
+    margin-top: 11px;
+}
+@media(max-width: 801px)
+*{
+    /* background-color: rgb(230, 146, 146);*/
+}
+/*.devPic{
+    display: none;
+}*/
+.intro, .blogcontainer, .contactform{
+    margin: 50px 8px;
+}
+{
+ /* .sidebar{
+    transform: translate(-801px,414px);
+    position: absolute;
+  }*/
+}
